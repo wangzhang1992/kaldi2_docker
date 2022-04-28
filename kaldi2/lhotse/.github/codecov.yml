@@ -1,0 +1,11 @@
+comment: false
+ignore:
+  # Recipe code is not subject to testing.
+  - "lhotse/recipes/**/*"
+  - "lhotse/recipes/*"
+  # Testing utilities shouldn't count.
+  - "lhotse/testing/**/*"
+  - "lhotse/testing/*"
+  # Unit tests code artificially increases the coverage.
+  - "test/**/*"
+  - "test/*"

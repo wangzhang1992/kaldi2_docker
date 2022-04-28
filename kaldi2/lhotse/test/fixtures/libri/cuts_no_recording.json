@@ -1,0 +1,24 @@
+[
+  {
+    "id": "e3e70682-c209-4cac-629f-6fbed82c07cd",
+    "start": 0.0,
+    "duration": 10.0,
+    "channel": 0,
+    "supervisions": [],
+    "features": {
+      "type": "fbank",
+      "num_frames": 1604,
+      "num_features": 40,
+      "frame_shift": 0.01,
+      "sampling_rate": 16000,
+      "start": 0,
+      "duration": 16.04,
+      "storage_type": "lilcom_files",
+      "storage_path": "test/fixtures/libri/storage",
+      "storage_key": "30c2440c-93cb-4e83-b382-f2a59b3859b4.llc",
+      "recording_id": "recording-1",
+      "channels": 0
+    },
+    "type": "Cut"
+  }
+]

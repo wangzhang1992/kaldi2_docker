@@ -1,0 +1,20 @@
+[flake8]
+show-source=true
+statistics=true
+max-line-length=80
+exclude =
+  .git,
+  setup.py,
+  get_version.py
+  build,
+  k2/python/host,
+  k2/python/k2/ctc_loss.py,
+  docs
+
+ignore =
+  # E127 continuation line over-indented for visual indent
+  E127,
+  # F401, import but not used
+  F401,
+  # W504, line break after binary operator
+  W504,
